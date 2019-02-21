@@ -7,10 +7,12 @@
     width: 300px;
     margin: 2rem auto;
     text-align: center;
-    display: table;
+    position: relative;
 }
 .parent p{
-    display: table-cell;
+    position: absolute;
+    top: 50%; /*del padre*/
+    transform: translatey(-50%); /*posicion del hijo*/
     vertical-align: middle;
     margin: 0;
     padding: 0 1rem;
