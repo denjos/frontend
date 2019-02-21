@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+body {
+  font-family: 'PT Sans';
+  margin: 0;
+  background: #DD1D3D; }
+
+.container {
+  width: 300px;
+  height: 150px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #ECF391;
+  font-size: 2.5em;
+  /* centrado del contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Border de visualizacion de limite */
+  border: 2px solid black; }
