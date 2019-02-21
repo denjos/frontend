@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+}
+
+.box{
+    border: 1px solid #999;
+    box-sizing: border-box;
+    color: #444;
+    display: inline-block;
+    /* float: left; */
+    padding: 1em;
+    width: 31.9%;
+    margin: 0.5%;
+    vertical-align: top;
+}
