@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.parent{
+    background-color: #ccc;
+    height: 220px;
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    display: table;
+}
+.parent p{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 1rem;
+}
